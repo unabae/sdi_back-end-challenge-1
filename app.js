@@ -11,3 +11,11 @@ const cars = [
     { size: 'Large', seats: 15, cost: 12000 }
 ];
 
+rl.question('Please input number (seat): ', (input) => {
+    const requiredSeats = parseInt(input);
+
+    let minCost = Number.MAX_SAFE_INTEGER;
+    let optimalSmall = 0, optimalMedium = 0, optimalLarge = 0;
+
+ 
+});
